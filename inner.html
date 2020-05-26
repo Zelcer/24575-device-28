@@ -54,10 +54,54 @@
       </ul>
       <section>
         <h2>Фильтр:</h2>
-        <!-- Здесь будет форма фильтра -->
+        <form action="https://echo.htmlacademy.ru" method="get">
+          <fieldset>
+            <legend>Стоимость</legend>
+            <!-- Тут будет кастомный input type range -->
+          </fieldset>
+          <fieldset>
+            <legend>Цвет</legend>
+            <ul>
+              <li>
+                <input id="color-black" type="checkbox" name="black" checked>
+                <label for="color-black">Чёрный</label>
+              </li>
+              <li>
+                <input id="color-white" type="checkbox" name="white">
+                <label for="color-white">Белый</label>
+              </li>
+              <li>
+                <input id="color-blue" type="checkbox" name="blue" checked>
+                <label for="color-blue">Синий</label>
+              </li>
+              <li>
+                <input id="color-red" type="checkbox" name="red" checked>
+                <label for="color-red">Красный</label>
+              </li>
+              <li>
+                <input id="color-pink" type="checkbox" name="pink">
+                <label for="color-pink">Розовый</label>
+              </li>
+            </ul>
+          </fieldset>
+          <fieldset>
+            <legend>Bluetooth</legend>
+            <ul>
+              <li>
+                <input id="bluetooth-yes" type="radio" name="bluetooth" value="option-there-is" checked>
+                <label for="bluetooth-yes">Есть</label>
+              </li>
+              <li>
+                <input id="bluetooth-no" type="radio" name="bluetooth" value="option-no">
+                <label for="bluetooth-no">Нет</label>
+              </li>
+            </ul>
+          </fieldset>
+          <button type="submit">Показать</button>
+        </form>
       </section>
       <section>
-        <h2>Каталог моноподов для селфи</h2>
+        <h2 class="visually-hidden">Каталог моноподов для селфи</h2>
         <div>
           <h3>сортировка:</h3>
           <ul>
@@ -66,8 +110,8 @@
             <li><a href="#">По популярности</a></li>
           </ul>
           <ul>
-            <li><a href="#">По возрастанию</a></li>
-            <li><a href="#">По убыванию</a></li>
+            <li><a href="#" aria-label="По возрастанию"></a></li>
+            <li><a href="#" aria-label="По убыванию"></a></li>
           </ul>
         </div>
         <ul>
