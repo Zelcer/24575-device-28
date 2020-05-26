@@ -11,7 +11,10 @@
         <img src="img/svg/icon-logo.svg" width="163" height="35" alt="Логотип интернет-магазина гаджетов DEVICE">
       </a>
       <div>
-        <!-- Здесь будет форма поиска -->
+        <form action="https://echo.htmlacademy.ru" method="post">
+          <input type="text" name="search" aria-label="Поиск по сайту">
+          <button type="submit">Найти</button>
+        </form>
         <ul>
           <li><a href="blank.html">Войти</a></li>
           <li><a href="blank.html">Сравнить</a></li>
@@ -43,9 +46,9 @@
     </header>
 
     <main>
-      <h1>Интернет-магазина гаджетов Девайс</h1>
+      <h1 class="visually-hidden">Интернет-магазина гаджетов Девайс</h1>
       <section>
-        <h2>Лучшие предложения</h2>
+        <h2 class="visually-hidden">Лучшие предложения</h2>
         <div>
           <img src="img/png/main-slide-1.png" width="384" height="486" alt="Селфи палка">
           <p>Делай селфи, как Бен Стиллер!</p>
@@ -90,6 +93,7 @@
           <img src="img/png/main-slide-3.png" width="526" height="334" alt="Квадракоптер">
           <p>Порхает как бабочка, жалит как пчела!</p>
           <p>Мотивирующие фитнес-браслеты помогут найти в себе силы не пропускать занятия и соблюдать диету.</p>
+          <a href="blank.html">Подробнее</a>
           <table>
             <thead>
               <tr>
@@ -106,13 +110,13 @@
           </table>
         </div>
         <div>
-          <button type="button">Слайд 1</button>
-          <button type="button">Слайд 2</button>
-          <button type="button">Слайд 3</button>
+          <button type="button" aria-label="Слайд 1"></button>
+          <button type="button" aria-label="Слайд 2"></button>
+          <button type="button" aria-label="Слайд 3"></button>
         </div>
       </section>
       <section>
-        <h2>Популярные категории товаров</h2>
+        <h2 class="visually-hidden">Популярные категории товаров</h2>
         <ul>
           <li><a href="blank.html">Виртуальная реальность</a></li>
           <li><a href="inner.html">Моноподы для селфи</a></li>
@@ -123,7 +127,7 @@
         </ul>
       </section>
       <section>
-        <h2>Сервис</h2>
+        <h2 class="visually-hidden">Сервис</h2>
         <ul>
           <li><button type="button">Доставка</button></li>
           <li><button type="button">Гарантия</button></li>
@@ -143,7 +147,7 @@
         </div>
       </section>
       <section>
-        <h2>Бренды</h2>
+        <h2 class="visually-hidden">Бренды</h2>
         <ul>
           <li><img src="img/png/logo-1.png" width="260" height="100" alt="Бренд DJI"></li>
           <li><img src="img/png/logo-2.png" width="260" height="100" alt="Бренд SP GADJETS"></li>
@@ -210,7 +214,21 @@
 
     <section>
       <h2>Обратная связь</h2>
-      <!-- Здесь будет форма обратной связи -->
+      <form action="https://echo.htmlacademy.ru" method="post">
+        <div>
+          <label for="feedback-name">Ваше имя:</label>
+          <input id="feedback-name" type="text" name="name" placeholder="Имя Фамилия">
+        </div>
+        <div>
+          <label for="feedback-email">Ваш e-mail:</label>
+          <input id="feedback-email" type="email" name="email" placeholder="email@example.com">
+        </div>
+        <div>
+          <label for="feedback-text">Текст письма:</label>
+          <textarea id="feedback-text" name="text" placeholder="В свободной форме"></textarea>
+        </div>
+        <button type="submit">Отправить</button>
+      </form>
       <button type="button">Закрыть</button>
     </section>
   </body>
