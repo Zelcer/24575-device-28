@@ -1,0 +1,34 @@
+.modal {
+  box-shadow: 0 10px 16px rgba(0, 0, 0, 0.15);
+}
+
+.modal__form-label {
+  font-family: "Gilroy", sans-serif;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 800;
+}
+
+.modal__form-input {
+  font: inherit;
+  color: var(--basic-black);
+  border: none;
+  background-color: #f2f2f2;
+}
+
+.modal__form-input::placeholder {
+  opacity: 1;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.modal__form-input:hover {
+  background-color: #eaeaea;
+}
+
+.modal__form-input:focus {
+  outline: 2px solid var(--special-yellow);
+}
+
+.modal__form-input:focus::placeholder {
+  color: var(--basic-dark);
+}

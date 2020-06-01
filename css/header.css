@@ -1,0 +1,12 @@
+.header {
+  background-color: var(--special-yellow);
+}
+
+.header__wrapper {
+  padding: 44px 60px 46px;
+}
+
+.header__top {
+  font-weight: 300;
+  line-height: 20px;
+}

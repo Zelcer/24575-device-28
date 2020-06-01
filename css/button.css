@@ -1,0 +1,38 @@
+.button {
+  text-align: center;
+  vertical-align: middle;
+  border: none;
+  text-transform: uppercase;
+}
+
+.button--search {
+  font: inherit;
+  background-color: transparent;
+  border: 2px solid var(--basic-black);
+  cursor: pointer;
+}
+
+.button--search:hover,
+.button--search:focus {
+  color: var(--basic-white);
+  background-color: var(--basic-black);
+}
+
+.button--search:active {
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.button--accent {
+  font-family: "Gilroy", sans-serif;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 800;
+  color: var(--basic-black);
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  background-color: var(--special-yellow-dark);
+}
+
+.button--accent:active {
+  color: rgba(0, 0, 0, 0.3);
+}

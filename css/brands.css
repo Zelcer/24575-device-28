@@ -1,0 +1,14 @@
+.brands__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.brands__item img {
+  filter: grayscale(100%) opacity(30%);
+}
+
+.brands__item img:hover,
+.brands__item img:focus {
+  filter: grayscale(0) opacity(100%);
+}

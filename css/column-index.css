@@ -1,0 +1,12 @@
+.column-index h2 {
+  font-family: "Gilroy", sans-serif;
+  font-size: 47px;
+  line-height: 58px;
+  font-weight: 800;
+  letter-spacing: 0.2em;
+}
+
+.column-index p {
+  line-height: 28px;
+  font-weight: 300;
+}

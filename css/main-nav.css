@@ -1,0 +1,33 @@
+.main-nav__list,
+.main-nav__submenu__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.main-nav__link {
+  font-family: "Gilroy", sans-serif;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 800;
+  color: var(--basic-black);
+  letter-spacing: 0.1em;
+  text-transform: uppercase
+}
+
+.main-nav__link:hover,
+.main-nav__link:focus,
+.main-nav__submenu__item a:hover,
+.main-nav__submenu__item a:focus {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.main-nav__link:active,
+.main-nav__submenu__item a:active {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.main-nav__submenu__item a {
+  font-weight: 300;
+  color: var(--basic-black);
+}

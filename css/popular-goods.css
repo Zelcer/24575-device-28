@@ -1,0 +1,36 @@
+.popular-goods__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.popular-goods__link {
+  font-family: "Gilroy", sans-serif;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 800;
+  letter-spacing: 0.05em;
+  color: var(--basic-black);
+}
+
+.popular-goods__link:hover .popular-goods__img,
+.popular-goods__link:focus .popular-goods__img {
+  background-color: var(--special-yellow-dark);
+}
+
+.popular-goods__link:active {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.popular-goods__link:active img {
+  opacity: 0.3;
+}
+
+.popular-goods__img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 160px;
+  height: 160px;
+  background-color: var(--special-yellow);
+}
