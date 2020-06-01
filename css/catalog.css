@@ -1,0 +1,114 @@
+.catalog__sorting {
+  background-color: var(--basic-gray-light);
+}
+
+.catalog__sorting-title {
+  font-family: "Gilroy", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.catalog__sorting-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.catalog__sorting-item a {
+  font-size: 14px;
+  line-height: 19px;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.catalog__sorting-item a:hover,
+.catalog__sorting-item a:focus {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.catalog__sorting-item a:active {
+  color: var(--basic-black);
+}
+
+.catalog__sorting-item--current a {
+  color: var(--basic-black);
+}
+
+.catalog__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.catalog__link {
+  color: var(--basic-black);
+}
+
+.catalog__item-info {
+  font-family: "Gilroy", sans-serif;
+}
+
+.catalog__item-title {
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 800;
+  letter-spacing: 0.05em;
+}
+
+.catalog__item-price {
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 300;
+  letter-spacing: 0.05em;
+}
+
+.catalog__pagination {
+  font-family: "Gilroy", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  background-color: #ebebeb;
+}
+
+.catalog__pagination a {
+  color: var(--basic-black);
+}
+
+.catalog__pagination-prev:hover,
+.catalog__pagination-next:hover,
+.catalog__pagination-prev:focus,
+.catalog__pagination-next:focus {
+  background-color: #d9d9d9;
+}
+
+.catalog__pagination-prev:active,
+.catalog__pagination-next:active {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.catalog__pagination-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.catalog__pagination-item a {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.catalog__pagination-item--current a {
+  color: var(--basic-black);
+}
+
+.catalog__pagination-item a:hover,
+.catalog__pagination-item a:focus {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.catalog__pagination-item a:active {
+  color: var(--basic-black);
+}

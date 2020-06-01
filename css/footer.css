@@ -86,3 +86,12 @@
 .footer__socials-link:active svg {
   fill-opacity: 0.1;
 }
+
+.footer__developed:hover img,
+.footer__developed:focus img {
+  opacity: 0.6;
+}
+
+.footer__developed:active img {
+  opacity: 0.3;
+}

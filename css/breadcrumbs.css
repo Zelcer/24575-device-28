@@ -1,0 +1,25 @@
+.breadcrumbs__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.breadcrumbs__item {
+  font-size: 14px;
+  line-height: 19px;
+  font-weight: 300;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.breadcrumbs__item a {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.breadcrumbs__item a:hover,
+.breadcrumbs__item a:focus {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.breadcrumbs__item a:active {
+  color: rgba(0, 0, 0, 0.1);
+}

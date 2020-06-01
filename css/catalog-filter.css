@@ -1,0 +1,44 @@
+.catalog-filter {
+  background-color: var(--basic-gray-light);
+}
+
+.catalog-filter__title {
+  font-family: "Gilroy", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  background-color: #dcdcdc;
+}
+
+.catalog-filter__fieldset {
+  border: none;
+}
+
+.catalog-filter__legend {
+  font-family: "Gilroy", sans-serif;
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+}
+
+.catalog-filter__range span {
+  font-family: "Gilroy", sans-serif;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 300;
+}
+
+.catalog-filter__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.catalog-filter__label {
+  font-size: 14px;
+  line-height: 19px;
+  font-weight: 300;
+}
